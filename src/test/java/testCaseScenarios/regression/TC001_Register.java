@@ -34,7 +34,7 @@ public class TC001_Register extends BaseClass{
 	        e.printStackTrace();
 	    }
 		
-		hp.doRegisterAccount("Adams","Burkley","lipile5126@goonby.com","9999999999","tester","tester");
+		hp.doRegisterAccount("Adams","Burkley","remali4314@plexfirm.com","9999999999","tester","tester");
 		
 		try {
 	        Thread.sleep(2*1000);

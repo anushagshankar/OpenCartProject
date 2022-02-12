@@ -34,7 +34,7 @@ public class TC002_Login extends BaseClass{
 	        e.printStackTrace();
 	    }
 		
-		lp.doAccess("lipile5126@goonby.com","tester");
+		lp.doAccess("remali4314@plexfirm.com","tester");
 		
 		try {
 	        Thread.sleep(2*1000);
