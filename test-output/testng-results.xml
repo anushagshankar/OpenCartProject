@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="14" total="22" passed="8">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="144681" started-at="2022-02-12T03:38:03Z" finished-at="2022-02-12T03:40:28Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="144681" started-at="2022-02-12T03:38:03Z" finished-at="2022-02-12T03:40:28Z">
+      <class name="testCaseScenarios.regression.TC006_ContactUs">
+        <test-method status="PASS" signature="clickContactUs()[pri:10, instance:testCaseScenarios.regression.TC006_ContactUs@bccb269]" name="clickContactUs" duration-ms="15227" started-at="2022-02-11T22:39:49Z" finished-at="2022-02-11T22:40:04Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickContactUs -->
+      </class> <!-- testCaseScenarios.regression.TC006_ContactUs -->
+      <class name="testCaseScenarios.regression.TC009_Logout">
+        <test-method status="PASS" signature="clickLogout()[pri:5, instance:testCaseScenarios.regression.TC009_Logout@4988d8b8]" name="clickLogout" duration-ms="9891" started-at="2022-02-11T22:38:20Z" finished-at="2022-02-11T22:38:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickLogout -->
+      </class> <!-- testCaseScenarios.regression.TC009_Logout -->
+      <class name="testCaseScenarios.regression.TC008_EmptyCart">
+        <test-method status="PASS" signature="clickEmptyCart()[pri:9, instance:testCaseScenarios.regression.TC008_EmptyCart@66d18979]" name="clickEmptyCart" duration-ms="23279" started-at="2022-02-11T22:39:25Z" finished-at="2022-02-11T22:39:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickEmptyCart -->
+      </class> <!-- testCaseScenarios.regression.TC008_EmptyCart -->
+      <class name="testCaseScenarios.regression.TC001_Register">
+        <test-method status="PASS" signature="init()[pri:0, instance:testCaseScenarios.regression.TC001_Register@63475ace]" name="init" is-config="true" duration-ms="5272" started-at="2022-02-11T22:37:58Z" finished-at="2022-02-11T22:38:03Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init -->
+        <test-method status="PASS" signature="clickRegister()[pri:4, instance:testCaseScenarios.regression.TC001_Register@63475ace]" name="clickRegister" duration-ms="16634" started-at="2022-02-11T22:38:03Z" finished-at="2022-02-11T22:38:20Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickRegister -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:testCaseScenarios.regression.TC001_Register@63475ace]" name="tearDown" is-config="true" duration-ms="0" started-at="2022-02-11T22:40:28Z" finished-at="2022-02-11T22:40:28Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testCaseScenarios.regression.TC001_Register -->
+      <class name="testCaseScenarios.regression.TC007_Returns">
+        <test-method status="PASS" signature="clickReturns()[pri:11, instance:testCaseScenarios.regression.TC007_Returns@609cd4d8]" name="clickReturns" duration-ms="23397" started-at="2022-02-11T22:40:04Z" finished-at="2022-02-11T22:40:28Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickReturns -->
+      </class> <!-- testCaseScenarios.regression.TC007_Returns -->
+      <class name="testCaseScenarios.regression.TC002_Login">
+        <test-method status="PASS" signature="clickLogin()[pri:6, instance:testCaseScenarios.regression.TC002_Login@c0c2f8d]" name="clickLogin" duration-ms="12391" started-at="2022-02-11T22:38:30Z" finished-at="2022-02-11T22:38:43Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickLogin -->
+      </class> <!-- testCaseScenarios.regression.TC002_Login -->
+      <class name="testCaseScenarios.regression.TC003_ShopProducts">
+        <test-method status="PASS" signature="clickShopProducts()[pri:7, instance:testCaseScenarios.regression.TC003_ShopProducts@305b7c14]" name="clickShopProducts" duration-ms="37636" started-at="2022-02-11T22:38:43Z" finished-at="2022-02-11T22:39:20Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickShopProducts -->
+      </class> <!-- testCaseScenarios.regression.TC003_ShopProducts -->
+      <class name="testCaseScenarios.regression.TC004_ViewCart">
+        <test-method status="PASS" signature="clickShoppingCart()[pri:8, instance:testCaseScenarios.regression.TC004_ViewCart@6913c1fb]" name="clickShoppingCart" duration-ms="4829" started-at="2022-02-11T22:39:21Z" finished-at="2022-02-11T22:39:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickShoppingCart -->
+      </class> <!-- testCaseScenarios.regression.TC004_ViewCart -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" verbose="0" name="Failed suite [Suite]">
+  <listeners>
+    <listener class-name="defaultClasses.CustomListeners"/>
+  </listeners>
+  <test name="Test(failed)">
+    <classes>
+      <class name="testCaseScenarios.smoke.TC002_ShoppingProducts">
+        <methods>
+          <include name="tearDown"/>
+          <include name="clickShopProducts"/>
+          <include name="init"/>
+        </methods>
+      </class> <!-- testCaseScenarios.smoke.TC002_ShoppingProducts -->
+      <class name="testCaseScenarios.smoke.TC001_HomePage">
+        <methods>
+          <include name="tearDown"/>
+          <include name="checkParentContainer"/>
+          <include name="init"/>
+        </methods>
+      </class> <!-- testCaseScenarios.smoke.TC001_HomePage -->
+      <class name="testCaseScenarios.smoke.TC004_EmptytheCart">
+        <methods>
+          <include name="tearDown"/>
+          <include name="clickEmptyCart"/>
+          <include name="init"/>
+        </methods>
+      </class> <!-- testCaseScenarios.smoke.TC004_EmptytheCart -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->

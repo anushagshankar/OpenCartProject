@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" verbose="0" name="Failed suite [Suite (0)]">
+  <listeners>
+    <listener class-name="defaultClasses.CustomListeners"/>
+  </listeners>
+  <test name="Test(failed)">
+    <classes>
+      <class name="testCaseScenarios.regression.TC001_Register">
+        <methods>
+          <include name="tearDown"/>
+          <include name="clickRegister"/>
+          <include name="init"/>
+        </methods>
+      </class> <!-- testCaseScenarios.regression.TC001_Register -->
+      <class name="testCaseScenarios.regression.TC009_Logout">
+        <methods>
+          <include name="tearDown"/>
+          <include name="clickLogout"/>
+          <include name="init"/>
+        </methods>
+      </class> <!-- testCaseScenarios.regression.TC009_Logout -->
+      <class name="testCaseScenarios.regression.TC002_Login">
+        <methods>
+          <include name="tearDown"/>
+          <include name="clickLogin"/>
+          <include name="init"/>
+        </methods>
+      </class> <!-- testCaseScenarios.regression.TC002_Login -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite (0)] -->

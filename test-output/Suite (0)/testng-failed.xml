@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite (0)]">
+  <listeners>
+    <listener class-name="defaultClasses.CustomListeners"/>
+  </listeners>
+  <test name="Test(failed)">
+    <classes>
+      <class name="testCaseScenarios.regression.TC002_Login">
+        <methods>
+          <include name="tearDown"/>
+          <include name="clickLogin"/>
+          <include name="init"/>
+        </methods>
+      </class> <!-- testCaseScenarios.regression.TC002_Login -->
+      <class name="testCaseScenarios.regression.TC003_ShopProducts">
+        <methods>
+          <include name="tearDown"/>
+          <include name="clickShopProducts"/>
+          <include name="init"/>
+        </methods>
+      </class> <!-- testCaseScenarios.regression.TC003_ShopProducts -->
+      <class name="testCaseScenarios.regression.TC006_ContactUs">
+        <methods>
+          <include name="tearDown"/>
+          <include name="clickContactUs"/>
+          <include name="init"/>
+        </methods>
+      </class> <!-- testCaseScenarios.regression.TC006_ContactUs -->
+      <class name="testCaseScenarios.regression.TC007_Returns">
+        <methods>
+          <include name="tearDown"/>
+          <include name="clickReturns"/>
+          <include name="init"/>
+        </methods>
+      </class> <!-- testCaseScenarios.regression.TC007_Returns -->
+      <class name="testCaseScenarios.regression.TC008_EmptyCart">
+        <methods>
+          <include name="tearDown"/>
+          <include name="clickEmptyCart"/>
+          <include name="init"/>
+        </methods>
+      </class> <!-- testCaseScenarios.regression.TC008_EmptyCart -->
+      <class name="testCaseScenarios.regression.TC009_Logout">
+        <methods>
+          <include name="tearDown"/>
+          <include name="clickLogout"/>
+          <include name="init"/>
+        </methods>
+      </class> <!-- testCaseScenarios.regression.TC009_Logout -->
+      <class name="testCaseScenarios.regression.TC001_Register">
+        <methods>
+          <include name="tearDown"/>
+          <include name="clickRegister"/>
+          <include name="init"/>
+        </methods>
+      </class> <!-- testCaseScenarios.regression.TC001_Register -->
+      <class name="testCaseScenarios.regression.TC004_ViewCart">
+        <methods>
+          <include name="tearDown"/>
+          <include name="clickShoppingCart"/>
+          <include name="init"/>
+        </methods>
+      </class> <!-- testCaseScenarios.regression.TC004_ViewCart -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite (0)] -->
